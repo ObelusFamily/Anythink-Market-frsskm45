@@ -6,7 +6,7 @@ var secret = require("../config").secret;
 
 var UserSchema = new mongoose.Schema(
   {
-    username: {
+    name: {
       type: String,
       lowercase: true,
       unique: true,
